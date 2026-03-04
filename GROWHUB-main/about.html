@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrowHub</title>
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <h2 class="logo">GrowHub</h2>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">Tentang Kita</a></li>
+            <li><a href="">Fitur</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="">Kontak</a></li>
+        </ul>
+        <div class="nav-buttons">
+      <a href="" class="btn-primary">Masuk</a>
+      <a href="" class="btn-outline">Daftar</a>
+    </div>
+    </nav>
+</header>
+
+<section class="hero-about">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <div class="hero-line"></div>
+        <h1>Tentang Kita</h1>
+        <p>
+            GrowHub hadir untuk menghubungkan mahasiswa dengan UMKM melalui
+            kolaborasi nyata yang saling memberikan manfaat.
+        </p>
+    </div>
+</section>
+
+<section class="about">
+
+    <div class="about-box">
+
+        <div class="about-text">
+            <h3>Kami membantu mahasiswa dan UMKM tumbuh bersama.</h3>
+
+            <p>
+                GrowHub adalah platform kolaborasi yang memungkinkan mahasiswa
+                mendapatkan pengalaman nyata melalui proyek langsung,
+                sekaligus membantu UMKM berkembang secara digital.
+            </p>
+
+            <p>
+                Dengan GrowHub, mahasiswa dapat membangun portofolio,
+                meningkatkan keterampilan profesional, dan memperluas jaringan.
+                Di sisi lain, UMKM memperoleh solusi digital seperti website,
+                branding, dan pengembangan sistem yang membantu bisnis mereka
+                naik ke level berikutnya.
+            </p>
+
+        </div>
+
+        <div class="about-image">
+          <img src="images/Kerjasama-UMKM.jpeg" alt="GrowHub">
+        </div>
+
+    </div>
+</section>
+
+<section class="karakteristik">
+    
+    <div class="karakteristik-header">
+        <h2>Karakteristik Utama GrowHub</h2>
+        <div class="garis-biru"></div>
+    </div>
+
+    <div class="karakteristik-container">
+
+        <div class="karakteristik-item">
+            <div class="karakteristik-icon"></div>
+            <div>
+                <h4>Berbasis Multi-Platform</h4>
+                <p>GrowHub dapat diakses melalui website dan aplikasi untuk memudahkan kolaborasi mahasiswa dan UMKM.</p>
+            </div>
+        </div>
+
+        <div class="karakteristik-item">
+            <div class="karakteristik-icon"></div>
+            <div>
+                <h4>Kolaborasi Dua Arah</h4>
+                <p>Menghubungkan UMKM sebagai pemberi proyek dengan mahasiswa sebagai pelaksana dalam satu sistem terintegrasi.</p>
+            </div>
+        </div>
+
+        <div class="karakteristik-item">
+            <div class="karakteristik-icon"></div>
+            <div>
+                <h4>Sistem Berbasis Proyek</h4>
+                <p>UMKM dapat mengunggah kebutuhan seperti desain, branding, atau website yang dikerjakan mahasiswa.</p>
+            </div>
+        </div>
+
+        <div class="karakteristik-item">
+            <div class="karakteristik-icon"></div>
+            <div>
+                <h4>Monitoring Terstruktur</h4>
+                <p>Setiap proyek memiliki deskripsi, timeline, dan status pengerjaan yang jelas.</p>
+            </div>
+        </div>
+
+        <div class="karakteristik-item">
+            <div class="karakteristik-icon"></div>
+            <div>
+                <h4>Pengembangan Skill</h4>
+                <p>Mahasiswa mendapatkan pengalaman nyata dan membangun portofolio profesional.</p>
+            </div>
+        </div>
+
+        <div class="karakteristik-item">
+            <div class="karakteristik-icon"></div>
+            <div>
+                <h4>Ekosistem Digital</h4>
+                <p>Menciptakan kolaborasi yang efisien, transparan, dan berkelanjutan berbasis teknologi.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section class="team">
+    <div class="team-overlay"></div>
+
+    <div class="team-content">
+        <h2>Meet Our Team</h2>
+
+        <div class="team-grid">
+
+            <div class="team-card">
+                <img src="images/Devan-Fahredy.jpeg" alt="">
+                <h3>Muhammad Devan Fahredy</h3>
+                <span>24082010200</span>
+            </div>
+
+            <div class="team-card">
+                <img src="images/Salman-Malik.jpeg" alt="">
+                <h3>Salman Malik Alfarisi</h3>
+                <span>24082010202</span>
+            </div>
+
+            <div class="team-card">
+                <img src="images/Shafira-Intan.jpeg" alt="">
+                <h3>Shafira Intan Cahaya Melati</h3>
+                <span>24082010217</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+<script>
+    const icons = document.querySelectorAll(".karakteristik-icon");
+
+    icons.forEach(icon => {
+        icon.addEventListener("click", function() {
+            this.classList.toggle("active-icon");
+        });
+    });
+</script>
+</body>
+</html>
